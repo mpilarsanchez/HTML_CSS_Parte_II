@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form action="resultado.html" method="POST">
+    <p>
+      <label for="mascota">¿Tienes mascota?</label>
+      <input type="radio" name="mascota" value="s">SI
+      <input type="radio" name="mascota" value="n">NO
+      <P>
+        <input type="submit" value="Enviar">
+  </form>
+
+  <form action="resultado.html" method="POST">
+    <p>
+      <label for"hobby">¿Cuáles son tus hobbies?</label>
+      <input type="checkbox" name="hobby" value="p">Pescar
+      <input type="checkbox" name="hobby" value="c">Correr
+      <input type="checkbox" name="hobby" value="y">Yoga
+
+      </label>
+    </p>
+    <input type="submit" value="Enviar">
+  </form>
+<!---MENU DESPLEGABLE--->
+  <p>
+  <label for="mes">Elegí un mes<label>
+    <select class"" name"mes" id="mes">
+      <option value="ene">Enero</option>
+      <option value="feb">Febrero</option>
+      <option value="mar">Marzo</option>
+      <option value="abr">Abri</option>
+      <option value="may">Mayo</option>
+      <option value="jun">Junio</option>
+      <option value="jul">Julio</option>
+      <option value="agos">Agosto</option>
+      <option value="set">Setiembre</option>
+      <option value="oct">Octubre</option>
+      <option value="nov">Noviembre</option>
+      <option value="dic">Diciembre</option>
+    </select>
+  </label>
+</p>
+
+<input type="submit" value="Enviar">
+</form>
+<textarea name="com" rows="8" cols="80">Escriba su comentario</textarea>
+<button type="submit" name="button">Enviar</button>
+<button type="reset" name="button">Borrar</button>
+</body>
+
+</html>
